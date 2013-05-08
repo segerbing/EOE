@@ -5,7 +5,7 @@ import java.io.File;
 import android.app.Application;
 
 public class MyApplication extends Application {
-	public static  File 				cacheDir;
+	public static  File	cacheDir;
 @Override
 	public void onCreate() {
 		// TODO Auto-generated method stub
@@ -37,10 +37,5 @@ public class MyApplication extends Application {
 //        .enableLogging()
 //        .build();
 //		ImageLoader.getInstance().init(config);
-
-
-		
 	}
-	
-	
-	}
+}
